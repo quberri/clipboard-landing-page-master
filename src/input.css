@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;   
+}
+
+p {
+    color: hsl(201, 11%, 66%);
+}
+.header{
+    contain: content;
+    background-image: url(/images/bg-header-desktop.png);
+    align-items: center;
+    text-align: center;
+}
+.logo{
+    margin-top: 2rem;
+    padding: 1.5rem;
+}
+.header_buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    
+}
+.ios_button {
+    background-color:  hsl(171, 66%, 44%);
+    padding: 0.3rem 1.5rem;
+    color: white;
+    margin-right: 0.2rem;
+    border-radius: 1rem;
+    font-size: medium;
+}
+.mac_button {
+    background-color: hsl(210, 10%, 33%);
+    padding: 0.3rem 1.5rem;
+    color: white;
+    margin-left: 0.2rem;
+    border-radius: 1rem;
+    font-size: medium;
+}
+
+.snippet_txt {
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+.snippets {
+    display: flex;
+    padding: 1rem;
+}
+.snippets_items{
+    margin-left: 3rem;
+}
+.multi_devices{
+    display: grid;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+.multi_devices_txt {
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.supercharge {
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+}
+.supercharge_icons{
+    margin-top: 1rem;
+    display: flex;
+}
+.supercharge_svg {
+    padding: 1rem;
+}
+.clipboard {
+    align-items: center;
+    text-align: center;
+}
+.clipboard_buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(243, 241, 241);
+    padding: 2rem;
+}
+footer_nav {
+    display: flex;
+}
+@media only screen and (max-width: 375px)  {
+    body {
+        display: block;
+    }
+}
