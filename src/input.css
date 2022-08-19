@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300&display=swap');
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     scroll-behavior: smooth;
-    font-family: 'Bai Jamjuree', sans-serif;   
+    font-family: 'Bai Jamjuree', sans-serif;
 }
+
 .container {
     width: 80vw;
     justify-content: center;
@@ -15,41 +17,54 @@
     padding: 2rem;
     contain: content
 }
+
 p {
     color: hsl(201, 11%, 66%);
 }
-h1, h2, h3 {
-    color:hsl(210, 10%, 33%);
+
+h1,
+h2,
+h3 {
+    color: hsl(210, 10%, 33%);
 }
-.header{
+
+.header {
     contain: content;
     background-image: url(/images/bg-header-desktop.png);
+    background-repeat: no-repeat;
     align-items: center;
     text-align: center;
 }
-.logo{
+
+.logo {
     margin-top: 2rem;
     padding: 1.5rem;
 }
+
 .header_buttons {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 1rem;
-    
+
 }
+
 .ios_button {
-    background-color:  hsl(171, 66%, 44%);
+    background-color: hsl(171, 66%, 44%);
     padding: 0.3rem 1.5rem;
     color: white;
     margin-right: 0.2rem;
     border-radius: 1rem;
+    border-color: hsl(171, 66%, 44%, 0.3);
     font-size: medium;
     cursor: pointer;
-    box-shadow: 0 6px 15px 0 hsl(171, 66%, 44%, 0.24), 0 3px 12px 0 hsl(171, 66%, 44%, 0.12);
 }
+
 .ios_button:hover {
     background-color: hsl(171, 66%, 44%, 0.7);
+}
+.ios_button:active {
+    background-color: hsl(171, 66%, 34%);
 }
 .mac_button {
     background-color: hsl(233, 100%, 69%);
@@ -57,85 +72,105 @@ h1, h2, h3 {
     color: white;
     margin-left: 0.2rem;
     border-radius: 1rem;
+    border-color: hsl(233, 100%, 69%, 0.3);
     font-size: medium;
     cursor: pointer;
     box-shadow: 0 6px 15px 0 hsl(233, 100%, 69%, 0.24), 0 3px 12px 0 hsl(233, 100%, 69%, 0.12);
 }
-.mac_button:hover{
-    background-color: hsl(233, 100%, 69%, 0.7) ;
+
+.mac_button:hover {
+    background-color: hsl(233, 100%, 69%, 0.7);
+}
+.mac_button:active {
+    background-color: hsl(233, 100%, 65%);
 }
 .snippet_txt {
     align-items: center;
     text-align: center;
     padding: 1rem;
-    margin-top: 1rem;
 }
+
 .snippets {
     display: flex;
     padding: 1rem;
 }
-.snippets_items{
+
+.snippets_items {
     margin-left: 3rem;
 }
-.multi_devices{
+
+.multi_devices {
     display: grid;
     align-items: center;
     text-align: center;
     justify-content: center;
     padding: 1rem;
 }
+
 .multi_devices_txt {
     padding: 1rem;
     margin-bottom: 1rem;
 }
+
 .supercharge {
     align-items: center;
     text-align: center;
     padding: 2rem;
 }
-.supercharge_icons{
+
+.supercharge_icons {
     margin-top: 2rem;
     display: flex;
 }
+
 .supercharge_svg {
     padding: 1rem;
 }
-.manu__imgs{
+
+.manu__imgs {
     display: flex;
     align-items: center;
-    justify-content: space-between ;
+    justify-content: space-between;
     padding: 2rem;
     margin-bottom: 1rem;
 }
+
 .clipboard {
     align-items: center;
     text-align: center;
 }
+
 .clipboard_buttons {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 1.5rem;
 }
-footer{
+
+footer {
     display: flex;
-    justify-content:space-evenly;
-    background-color:hsl(201, 11%, 66%, 0.3);
+    justify-content: space-evenly;
+    background-color: hsl(201, 11%, 66%, 0.3);
     padding: 2rem;
 }
+
 .footer_links {
     display: flex;
-    flex-wrap:wrap;
-    width: 15rem;
+    flex-wrap: wrap;
     justify-content: space-between;
+    padding: 2rem;
 }
-.footer_links a{
+
+.footer_links a {
+    width: 6rem;
     text-decoration: none;
-    color:hsl(210, 10%, 33%);
-    font-weight: 700;
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
 }
-.footer_links a:hover{
-    color:hsl(210, 10%, 33%);
+
+.footer_links a:hover {
+    color: hsl(210, 10%, 17%);
 }
-@media only screen and (max-width: 375px)  {
+.footer_svg {
+    padding: 2rem;
 }
